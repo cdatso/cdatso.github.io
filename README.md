@@ -18,6 +18,7 @@ Ce dépôt porte deux choses, et rien d'autre :
 | Chemin | Projet | Dépôt |
 |---|---|---|
 | `/analyses-de-films/` | Analyses de films — critiques et études de cinéma sourcées | [cdatso/analyses-de-films](https://github.com/cdatso/analyses-de-films) |
+| `/filmographie/` | Filmographie — inventaire de films (prototype) | [cdatso/filmographie](https://github.com/cdatso/filmographie) |
 
 Chaque projet vit dans son propre dépôt, publié comme *project site* GitHub
 Pages ; ce dépôt-ci ne fait qu'ancrer le domaine et l'accueil.
