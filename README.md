@@ -19,6 +19,7 @@ Ce dépôt porte deux choses, et rien d'autre :
 |---|---|---|
 | `/analyses-de-films/` | Analyses de films — critiques et études de cinéma sourcées | [cdatso/analyses-de-films](https://github.com/cdatso/analyses-de-films) |
 | `/filmographie/` | Filmographie — inventaire de films (prototype) | [cdatso/filmographie](https://github.com/cdatso/filmographie) |
+| `/chatbot-catalogue/` | Chatbot catalogue — questions sur les analyses publiées | [cdatso/chatbot-catalogue](https://github.com/cdatso/chatbot-catalogue) |
 
 Chaque projet vit dans son propre dépôt, publié comme *project site* GitHub
 Pages ; ce dépôt-ci ne fait qu'ancrer le domaine et l'accueil.
