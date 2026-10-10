@@ -10,8 +10,7 @@ Ce dépôt porte deux choses, et rien d'autre :
 - **`CNAME`** — la liaison du domaine personnalisé `www.cdatso.be` à GitHub
   Pages. Ce fichier ne se supprime jamais : sans lui, le domaine cesse de
   répondre.
-- **`index.html`** — une page d'accueil provisoire, qui renvoie vers le
-  premier projet publié sous le domaine.
+- **`index.html`** — la page d'accueil : portail d'auteur, quatre entrées.
 
 ## Projets servis sous le domaine
 
@@ -20,6 +19,9 @@ Ce dépôt porte deux choses, et rien d'autre :
 | `/analyses-de-films/` | Analyses de films — critiques et études de cinéma sourcées | [cdatso/analyses-de-films](https://github.com/cdatso/analyses-de-films) |
 | `/filmographie/` | Filmographie — inventaire de films (prototype) | [cdatso/filmographie](https://github.com/cdatso/filmographie) |
 | `/chatbot-catalogue/` | Chatbot catalogue — questions sur les analyses publiées | [cdatso/chatbot-catalogue](https://github.com/cdatso/chatbot-catalogue) |
+| `/comprendre-ia/` | Comprendre et discuter l'IA — conférences, dossiers et documentation | [cdatso/comprendre-ia](https://github.com/cdatso/comprendre-ia) |
+| `demande.cdatso.be` | Demander une analyse de film — formulaire public (sous-domaine) | service de demande |
+| `/bibliographie/` | Bibliographie — à venir (BKL-CDC-025) | — |
 
 Chaque projet vit dans son propre dépôt, publié comme *project site* GitHub
 Pages ; ce dépôt-ci ne fait qu'ancrer le domaine et l'accueil.
