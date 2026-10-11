@@ -5,12 +5,16 @@ GitHub Pages.
 
 ## Rôle
 
-Ce dépôt porte deux choses, et rien d'autre :
+Ce dépôt porte trois choses, et rien d'autre :
 
 - **`CNAME`** — la liaison du domaine personnalisé `www.cdatso.be` à GitHub
   Pages. Ce fichier ne se supprime jamais : sans lui, le domaine cesse de
   répondre.
 - **`index.html`** — la page d'accueil : portail d'auteur, quatre entrées.
+- **`fond.svg`** et **`outils/`** — le fond dessiné de l'accueil (un anneau de
+  traits fins, posé par la variable CSS `--fond`) et son générateur
+  `outils/fond.py` ; la commande de régénération est dans
+  `outils/LISEZMOI.md`.
 
 ## Projets servis sous le domaine
 
