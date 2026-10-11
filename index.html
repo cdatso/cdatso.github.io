@@ -18,12 +18,18 @@
       --or-texte: #7a6120;
     }
     @media (prefers-color-scheme: dark) {
-      :root {
+      :root:not([data-theme="light"]) {
         --papier: #14140f;
         --encre: #f0ede6;
         --discret: #b5b0a6;
         --or-texte: #d4b862;
       }
+    }
+    :root[data-theme="dark"] {
+      --papier: #14140f;
+      --encre: #f0ede6;
+      --discret: #b5b0a6;
+      --or-texte: #d4b862;
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
@@ -97,11 +103,29 @@
     }
     footer a { color: inherit; }
     .credit { margin-top: 0.4rem; text-align: center; font-size: 0.72rem; color: var(--discret); }
+    .theme {
+      position: fixed;
+      top: 14px;
+      right: 14px;
+      z-index: 5;
+      font: inherit;
+      font-size: 0.75rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      background: var(--papier);
+      color: var(--discret);
+      border: 1px solid var(--or);
+      border-radius: 99px;
+      padding: 6px 12px;
+      cursor: pointer;
+    }
   </style>
+  <script>(function(){try{var t=localStorage.getItem("kb-theme");if(t==="light"||t==="dark"){document.documentElement.setAttribute("data-theme",t);}}catch(e){}})();</script>
 </head>
 <body>
   <main>
     <header>
+      <button class="theme" id="theme" type="button" aria-label="Basculer entre clair et sombre">Clair / Sombre</button>
       <h1>Christo Datso</h1>
       <p class="presentation">Critiques de cinéma sourcées, réflexion sur l'IA et bibliographie d'auteur&nbsp;: trois chantiers, un même goût de la source.</p>
     </header>
@@ -124,5 +148,6 @@
   </main>
   <footer>© Christo Datso · <a href="mailto:analyses@cdatso.be">analyses@cdatso.be</a></footer>
   <p class="credit">Fond inspiré des dessins de Tiziana Alocci et CS Projects (<i>Rendah Mag</i> n°14).</p>
+  <script>(function(){var b=document.getElementById("theme");b.addEventListener("click",function(){var r=document.documentElement;var cur=r.getAttribute("data-theme");var sys=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";var now=(cur||sys)==="dark"?"light":"dark";r.setAttribute("data-theme",now);try{localStorage.setItem("kb-theme",now);}catch(e){}});})();</script>
 </body>
 </html>
