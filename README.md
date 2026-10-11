@@ -21,7 +21,7 @@ Ce dépôt porte deux choses, et rien d'autre :
 | `/chatbot-catalogue/` | Chatbot catalogue — questions sur les analyses publiées | [cdatso/chatbot-catalogue](https://github.com/cdatso/chatbot-catalogue) |
 | `/comprendre-ia/` | Comprendre et discuter l'IA — conférences, dossiers et documentation | [cdatso/comprendre-ia](https://github.com/cdatso/comprendre-ia) |
 | `demande.cdatso.be` | Demander une analyse de film — formulaire public (sous-domaine) | service de demande |
-| `/bibliographie/` | Bibliographie — à venir (BKL-CDC-025) | — |
+| `/bibliographie/` | Bibliographie — textes publiés, page générée depuis le classeur de référence | [cdatso/bibliographie](https://github.com/cdatso/bibliographie) |
 
 Chaque projet vit dans son propre dépôt, publié comme *project site* GitHub
 Pages ; ce dépôt-ci ne fait qu'ancrer le domaine et l'accueil.
